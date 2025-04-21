@@ -69,7 +69,7 @@ console.log('NOT lógico (!):', !p); // false
 
 // Valor dentro de rango
 
-let minimo = 0;, maximo = 5;
+let minimo = 0; maximo = 5;
 
 let dentroRango = dato => minimo <= dato && dato <= maximo;
 console.log('Dentro de rango (0-5):', dentroRango(3)); // true
